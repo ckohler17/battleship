@@ -11,11 +11,14 @@ namespace battleship
         //member variables(Has A)
         public int score;
         public string name;
+        public List<string> ships;
+        
 
         //constructor(Builds)
         public Player()
         {
-            score = 0;
+            Player player = new Player();
+            ships = new List<string>() {"destroyer", "submarine", "battleship", "aircraft carrier"};
         }
         
         //member methods(Can Do)

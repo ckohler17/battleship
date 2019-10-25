@@ -16,7 +16,7 @@ namespace battleship
         //constructor(Builds)
         public Ship()
         {
-            length = 0;
+            
         }
 
         //member methods(Can Do)
